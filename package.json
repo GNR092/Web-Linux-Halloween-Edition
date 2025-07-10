@@ -1,0 +1,24 @@
+{
+  "name": "ubuntu-terminal-halloween",
+  "version": "1.0.0",
+  "description": "Página de terminal de Ubuntu con temática de Halloween",
+  "main": "index.js",
+  "scripts": {
+    "installr": "npm init -y && npm install -D tailwindcss && npx tailwindcss init && npm run build:csswatch",
+    "build:css": "npx tailwindcss -i ./styles.css -o ./dist/output.css",
+    "build:csswatch": "npx tailwindcss -i ./styles.css -o ./dist/output.css --watch",
+    "build:produce": "powershell -ExecutionPolicy Bypass -File ./build.ps1"
+  },
+  "keywords": [
+    "ubuntu",
+    "terminal",
+    "halloween",
+    "vue",
+    "tailwindcss"
+  ],
+  "author": "Gener de Jesus Can Dzul",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
