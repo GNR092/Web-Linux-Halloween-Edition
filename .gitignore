@@ -1,0 +1,11 @@
+/dist
+/py
+/node_modules
+/Ejemplos
+/.idea
+/resource/Cult of the Lamb OST - Blood Moon Festival Extended(MP3_128K).mp3
+/resource/loop.mp3
+package-lock.json
+index - copia.html
+*.txt
+*.zip
